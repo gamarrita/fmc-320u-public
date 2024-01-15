@@ -1,0 +1,8 @@
+../Drivers/CMSIS/Include/core_cm33.h:2845:26:ITM_SendChar	4
+../Core/Src/fm_debug.c:98:6:fm_debug_msg_itm	3
+../Core/Src/fm_debug.c:119:6:fm_debug_msg_uart	2
+../Core/Src/fm_debug.c:150:6:fm_debug_uint8_uart	1
+../Core/Src/fm_debug.c:162:6:fm_debug_uint16_uart	1
+../Core/Src/fm_debug.c:174:6:fm_debug_uint32_uart	1
+../Core/Src/fm_debug.c:181:6:fm_debug_int32_uart	1
+../Core/Src/fm_debug.c:193:6:fm_debug_float_uart	1

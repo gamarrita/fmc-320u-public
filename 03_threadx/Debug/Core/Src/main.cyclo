@@ -1,0 +1,9 @@
+../Core/Src/main.c:71:5:main	1
+../Core/Src/main.c:124:6:SystemClock_Config	4
+../Core/Src/main.c:171:13:SystemPower_Config	2
+../Core/Src/main.c:195:13:MX_ICACHE_Init	3
+../Core/Src/main.c:227:13:MX_RTC_Init	4
+../Core/Src/main.c:282:6:MX_GPIO_Init	1
+../Core/Src/main.c:319:6:App_Delay	2
+../Core/Src/main.c:335:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:352:6:Error_Handler	1

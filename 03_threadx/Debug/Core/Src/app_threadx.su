@@ -1,0 +1,8 @@
+../Core/Src/app_threadx.c:61:6:App_ThreadX_Init	64	static
+../Core/Src/app_threadx.c:101:6:tx_app_thread_entry	24	static
+../Core/Src/app_threadx.c:125:6:MX_ThreadX_Init	8	static
+../Core/Src/app_threadx.c:143:6:App_ThreadX_LowPower_Timer_Setup	16	static
+../Core/Src/app_threadx.c:155:6:App_ThreadX_LowPower_Enter	8	static
+../Core/Src/app_threadx.c:168:6:App_ThreadX_LowPower_Exit	8	static
+../Core/Src/app_threadx.c:181:7:App_ThreadX_LowPower_Timer_Adjust	4	static
+../Core/Src/app_threadx.c:189:6:HAL_GPIO_EXTI_Rising_Callback	32	static

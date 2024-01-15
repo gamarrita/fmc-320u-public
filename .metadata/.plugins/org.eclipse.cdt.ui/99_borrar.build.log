@@ -1,0 +1,10 @@
+22:05:13 **** Incremental Build of configuration Debug for project 99_borrar ****
+make -j12 all 
+arm-none-eabi-size  99_borrar.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9504	     17	   1572	  11093	   2b55	99_borrar.elf
+Finished building: default.size.stdout
+ 
+
+22:05:13 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

@@ -1,0 +1,31 @@
+14:56:57 **** Incremental Build of configuration Debug for project 01_setup ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/fm_debug.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/fm_debug.d" -MT"Core/Src/fm_debug.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/fm_debug.o"
+../Core/Src/fm_debug.c: In function 'fm_debug_msg_uart':
+../Core/Src/fm_debug.c:137:42: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+  137 |         ret = HAL_UART_Transmit(&huart1, '\n', 1, WAIT_FOR_UART_10MS);
+      |                                          ^~~~
+      |                                          |
+      |                                          int
+In file included from ../Core/Inc/stm32u5xx_hal_conf.h:411,
+                 from ../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/fm_debug.h:18,
+                 from ../Core/Src/fm_debug.c:27:
+../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h:1635:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int'
+ 1635 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "01_setup.elf" @"objects.list"   -mcpu=cortex-m33 -T"D:\FLOWMEET Dropbox\flowmeet\id\boards\fmc-320u\dhs\01_setup\STM32U575VITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="01_setup.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 01_setup.elf
+ 
+arm-none-eabi-size  01_setup.elf 
+arm-none-eabi-objdump -h -S 01_setup.elf  > "01_setup.list"
+   text	   data	    bss	    dec	    hex	filename
+  40531	    100	   2772	  43403	   a98b	01_setup.elf
+Finished building: default.size.stdout
+ 
+Finished building: 01_setup.list
+ 
+
+14:56:58 Build Finished. 0 errors, 1 warnings. (took 966ms)
+

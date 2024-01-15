@@ -1,0 +1,73 @@
+10:45:21 **** Build of configuration Debug for project 02_setup ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o"
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.c:305:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  305 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o"
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.c:43:10: fatal error: stm32u5xx_hal.h: No such file or directory
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o"
+   43 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c:103:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  103 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32U575xx -c -I../Core/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc -I../Drivers/STM32U5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32U5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.d" -MT"Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o"
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o] Error 1
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.c:162:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  162 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c:26:10: fatal error: stm32u5xx_hal.h: No such file or directory
+   26 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o] Error 1
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_lptim.o] Error 1
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o] Error 1
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.c:202:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  202 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.c:112:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  112 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc.o] Error 1
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rtc_ex.o] Error 1
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c:137:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  137 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:25:10: fatal error: stm32u5xx_hal.h: No such file or directory
+   25 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o] Error 1
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c:162:10: fatal error: stm32u5xx_hal.h: No such file or directory
+  162 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c:44:10: fatal error: stm32u5xx_hal.h: No such file or directory
+   44 | #include "stm32u5xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o] Error 1
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o] Error 1
+make: *** [Drivers/STM32U5xx_HAL_Driver/Src/subdir.mk:49: Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+10:45:22 Build Failed. 23 errors, 0 warnings. (took 294ms)
+
